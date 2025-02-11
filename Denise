@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Denise's Tiramisu Flyer</title>
+  <style>
+    /* General Page Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #F6E6D9; /* Warm creamy background */
+      font-family: "Open Sans", sans-serif;
+    }
+
+    .flyer-container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #FFF8F0; /* Light beige */
+      border-radius: 10px;
+      border: 1px solid #D4A373; /* Soft brown border */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Soft shadow effect */
+    }
+
+    /* Header / Title */
+    .flyer-header h1 {
+      font-family: "Playfair Display", serif;
+      color: #3D1C1C; /* Deep chocolate brown */
+      text-align: center;
+      font-size: 48px;
+      margin: 0;
+      padding-top: 20px;
+    }
+
+    .flyer-header .tagline {
+      text-align: center;
+      color: #6D3B27; /* Coffee caramel tone */
+      font-style: italic;
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* Image */
+    .flyer-image {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .flyer-image img {
+      max-width: 100%;
+      height: auto;
+      border: 3px solid #8B5A2B; /* Rich brown */
+      border-radius: 10px;
+    }
+
+    /* Description Text */
+    .description {
+      color: #3D1C1C; /* Deep brown */
+      line-height: 1.6;
+      padding: 0 20px;
+      font-size: 16px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    /* Ratings Section */
+    .ratings {
+      text-align: center;
+      margin: 20px 0;
+      background: #F3E0D2; /* Light mocha */
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .ratings p {
+      font-weight: bold;
+      color: #4B2E2E;
+      margin: 5px 0;
+      font-size: 16px;
+    }
+
+    /* Call-to-Action */
+    .cta {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .cta p {
+      color: #3D1C1C;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .cta a {
+      display: inline-block;
+      background-color: #8B5A2B; /* Coffee brown */
+      color: white;
+      padding: 12px 24px;
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background-color: #6D3B27; /* Darker brown */
+    }
+
+    /* Footer / Contact Info */
+    .footer {
+      text-align: center;
+      color: #4B2E2E;
+      font-size: 14px;
+      padding-bottom: 20px;
+      margin-top: 20px;
+    }
+    .footer a {
+      color: #8B5A2B;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 600px) {
+      .flyer-container {
+        margin: 20px;
+        padding: 15px;
+      }
+      .flyer-header h1 {
+        font-size: 36px;
+      }
+      .description, .ratings p, .cta p {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="flyer-container">
+    <!-- Header / Title -->
+    <div class="flyer-header">
+      <h1>Denise's Tiramisu</h1>
+      <div class="tagline">"Indulge in an Exquisite Blend of Coffee &amp; Cream"</div>
+    </div>
+
+    <!-- Image of Tiramisu -->
+    <div class="flyer-image">
+      <img src="https://i0.wp.com/mediterraneantaste.com/wp-content/uploads/2023/11/tiramisu-4583.jpg?resize=1024%2C683&ssl=1" alt="Delicious Tiramisu" />
+    </div>
+
+    <!-- Description Text -->
+    <div class="description">
+      <p>
+        An irresistibly creamy treat, layered with coffee-soaked biscuits and whipped mascarpone. 
+        Each bite delivers the perfect harmony of sweetness and bold espresso flavor.
+      </p>
+    </div>
+
+    <!-- Ratings Section -->
+    <div class="ratings">
+      <p>Aspect: 4.5★</p>
+      <p>Taste: 5★</p>
+      <p>Recipient: 2★</p>
+      <p>Delivery: 5★</p>
+      <p>Texture: 5★</p>
+      <p>Overall: 4.99★</p>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="cta">
+      <p>Order Now for a Heavenly Dessert Experience</p>
+      <a href="#">Order Now</a>
+    </div>
+
+    <!-- Footer / Contact Info -->
+    <div class="footer">
+      <p>
+        Contact: (+41) 123-4567 | 
+        <a href="#" target="_blank">www.denises-tiramisu.com</a>
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>  
